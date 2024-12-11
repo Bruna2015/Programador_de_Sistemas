@@ -1,4 +1,4 @@
-function ehPrimo(numero) {
+function Primo(numero) {
     if (numero <= 1) {
       return false; // 1 e números menores não são primos
     }
@@ -21,9 +21,10 @@ function ehPrimo(numero) {
   }
   
   // Testando a função
-  console.log(ehPrimo(7));   // Saída: true
-  console.log(ehPrimo(10));  // Saída: false
-  console.log(ehPrimo(13));  // Saída: true
-  console.log(ehPrimo(0));   // Saída: false
-  console.log(ehPrimo(1));   // Saída: false
-  console.log(ehPrimo(2));   // Saída: true
+  console.log(Primo(7));   // Saída: true
+  console.log(Primo(10));  // Saída: false
+  console.log(Primo(13));  // Saída: true
+  console.log(Primo(0));   // Saída: false
+  console.log(Primo(1));   // Saída: false
+  console.log(Primo(2));   // Saída: true
+  console.log(Primo(6));   // Saída: false
