@@ -1,12 +1,5 @@
-function classificarAluno(media) {
-    if (media >= 7.0) {
-      return "Aprovado";
-    } else {
-      return "Reprovado";
-    }
-  }
-  
-  // Testando a função com todos os cenários:
+  import { classificarAluno } from "./testemodulo01.js";
+
   console.log(classificarAluno(10));  // Saída: Aprovado
   console.log(classificarAluno(7.0));  // Saída: Aprovado
   console.log(classificarAluno(6.95));  // Saída: Reprovado
